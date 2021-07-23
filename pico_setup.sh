@@ -18,7 +18,7 @@ OUTDIR="$(pwd)/pico"
 # Install dependencies
 GIT_DEPS="git"
 SDK_DEPS="cmake gcc-arm-none-eabi gcc g++"
-OPENOCD_DEPS="gdb-multiarch automake autoconf build-essential texinfo libtool libftdi-dev libusb-1.0-0-dev"
+OPENOCD_DEPS="gdb-multiarch automake autoconf build-essential texinfo libtool libftdi-dev libusb-1.0-0-dev pkg-config"
 # Wget to download the deb
 VSCODE_DEPS="wget"
 UART_DEPS="minicom"
